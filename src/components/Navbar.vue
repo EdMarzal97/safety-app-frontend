@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <div class="bg-indigo-600">
+    <div class="bg-emerald-300">
       <nav
         class="
           container
@@ -28,10 +28,12 @@ export default {
               font-bold
               text-gray-100
               md:text-2xl
-              hover:text-indigo-400
+              hover:text-emerald-600
             "
             >safety
           </router-link>
+
+          
           <!-- Mobile menu button -->
           <div @click="toggleNav" class="flex md:hidden">
             <button
@@ -62,9 +64,9 @@ export default {
             md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0
           "
         >
-          <li class="text-gray-100 hover:text-indigo-400">Home</li>
-          <li class="text-gray-100 hover:text-indigo-400">News</li>
-          <li class="text-gray-100 hover:text-indigo-400">Weather</li>
+          <li class="text-gray-100 hover:text-emerald-600">Home</li>
+          <li class="text-gray-100 hover:text-emerald-600">News</li>
+          <li class="text-gray-100 hover:text-emerald-600">Weather</li>
         </ul>
       </nav>
     </div>
